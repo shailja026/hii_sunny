@@ -1,0 +1,450 @@
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    background: #0c192c;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    
+    
+}
+.btn{
+    width: 15rem;
+    height: 3rem;
+    color: #d4f6ff;
+    /* border: 3px solid red; */
+    margin-top: 13rem;
+    margin-left: 55rem;
+    font-weight: 900;
+    background-color: #07252d;
+    position: relative;
+    font-size: 2em;
+    letter-spacing: 15px;
+    color: #0e3742;
+    text-transform: uppercase;
+   
+    
+
+    
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s infinite;
+
+}
+.abcd{
+    /* border: 5px solid green; */
+    /* margin: 50em; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bubbles{
+    position: relative;
+    display: flex;
+    
+}
+.span{
+    /* border:  5px solid green; */
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(10s);
+}
+
+.span:nth-child(1){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(1s);
+}
+.span:nth-child(2){
+    background-color: rgb(238, 143, 174);
+    animation-duration: calc(2s);
+}
+.span:nth-child(3){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(3s);
+}
+.span:nth-child(4){
+    background-color: rgb(64, 224, 224);
+    animation-duration: calc(4s);
+}
+.span:nth-child(5){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(5s);
+}
+.span:nth-child(6){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(6s);
+}
+.span:nth-child(7){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(7s);
+}
+.span:nth-child(8){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(8s);
+}
+.span:nth-child(9){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(9s);
+}
+.span:nth-child(10){
+    background-color: rgb(52, 227, 17);
+    animation-duration: calc(10s);
+}
+.span:nth-child(11){
+    background-color: rgb(235, 155, 181);
+    animation-duration: calc(11s);
+}
+.span:nth-child(12){
+    background-color: rgb(29, 143, 143);
+    animation-duration: calc(12s);
+}
+.span:nth-child(13){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(13s);
+}
+.span:nth-child(14){
+    background-color: rgb(255, 245, 248);
+    animation-duration: calc(14s);
+}
+.span:nth-child(15){
+    background-color: rgb(255, 10, 10);
+    animation-duration: calc(15s);
+}
+.span:nth-child(18){
+    background-color: rgb(0, 0, 0);
+    animation-duration: calc(18s);
+}
+.span:nth-child(19){
+    background-color: rgb(69, 28, 255);
+    animation-duration: calc(19s);
+}
+.span:nth-child(20){
+    background-color: rgb(247, 101, 150);
+    animation-duration: calc(10s);
+}
+.span:nth-child(21){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(11s);
+}
+.span:nth-child(22){
+    background-color: rgb(255, 243, 247);
+    animation-duration: calc(11s);
+}
+.span:nth-child(23){
+    background-color: rgb(133, 255, 19);
+    animation-duration: calc(12s);
+}
+.span:nth-child(24){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(1s);
+}
+.span:nth-child(25){
+    background-color: rgb(129, 221, 132);
+    animation-duration: calc(5s);
+}
+/* 22222222222222222 */
+
+
+.span:nth-child(26){
+    background-color: rgb(239, 255, 8);
+    animation-duration: calc(5s);
+}
+.span:nth-child(27){
+    background-color: rgb(106, 255, 114);
+    animation-duration: calc(2s);
+}
+.span:nth-child(28){
+    background-color: rgb(235, 223, 227);
+}
+/* '''' */
+
+.span:nth-child(29){
+    background-color: rgb(49, 69, 247);
+    animation-duration: calc(10s);
+}
+.span:nth-child(30){
+    background-color: rgb(243, 255, 15);
+    animation-duration: calc(8s);
+}
+.span:nth-child(31){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(2s);
+}
+.span:nth-child(32){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(7s);
+}
+.span:nth-child(33){
+    background-color: rgb(231, 130, 164);
+    animation-duration: calc(8s);
+}
+.span:nth-child(34){
+    background-color: rgb(93, 255, 60);
+    animation-duration: calc(6s);
+}
+.span:nth-child(35){
+    background-color: rgb(239, 255, 8);
+    animation-duration: calc(5s);
+}
+.span:nth-child(54){
+    background-color: rgb(8, 255, 21);
+    animation-duration: calc(2s);
+}
+.span:nth-child(36){
+    background-color: rgb(235, 223, 227);
+}  
+/* 55555555555555555555555555 */
+
+.span:nth-child(36){
+    background-color: rgb(231, 255, 10);
+    animation-duration: calc(10s);
+}
+.span:nth-child(37){
+    background-color: rgb(29, 253, 22);
+    animation-duration: calc(8s);
+}
+.span:nth-child(38){
+    background-color: rgb(249, 120, 163);
+    animation-duration: calc(2s);
+}
+.span:nth-child(39){
+    background-color: rgb(29, 201, 253);
+    animation-duration: calc(7s);
+}
+.span:nth-child(40){
+    background-color: rgb(203, 6, 72);
+    animation-duration: calc(8s);
+}
+.span:nth-child(41){
+    background-color: rgb(16, 205, 123);
+    animation-duration: calc(6s);
+}
+.span:nth-child(42){
+    background-color: rgb(48, 244, 18);
+    animation-duration: calc(5s);
+}
+.span:nth-child(43){
+    background-color: rgb(106, 255, 114);
+    animation-duration: calc(2s);
+}
+.span:nth-child(44){
+    background-color: rgb(235, 235, 223);
+}  
+
+
+/* hiiiiiiiiiiiiii */
+
+
+.span:nth-child(45){
+    background-color: rgb(49, 69, 247);
+    animation-duration: calc(10s);
+}
+.span:nth-child(47){
+    background-color: rgb(243, 255, 15);
+    animation-duration: calc(8s);
+}
+.span:nth-child(48){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(2s);
+}
+.span:nth-child(49){
+    background-color: rgb(227, 17, 87);
+    animation-duration: calc(7s);
+}
+.span:nth-child(50){
+    background-color: rgb(231, 130, 164);
+    animation-duration: calc(8s);
+}
+.span:nth-child(52){
+    background-color: rgb(93, 255, 60);
+    animation-duration: calc(6s);
+}
+.span:nth-child(53){
+    background-color: rgb(239, 255, 8);
+    animation-duration: calc(5s);
+}
+.span:nth-child(54){
+    background-color: rgb(106, 255, 114);
+    animation-duration: calc(2s);
+}
+.span:nth-child(55){
+    background-color: rgb(235, 223, 227);
+    animation-duration: calc(5s);
+}
+@keyframes animate{
+   
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+   100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+
+.card {
+    position: relative;
+    width: 28%;
+    height: 50%;
+    border: 10px solid #9612eb;
+    /* margin-left:40rem; */
+   
+    /* text-align: end; */
+    box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(255, 255, 255, 0.5)), url("https://images.unsplash.com/photo-1527481138388-31827a7c94d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+   background-color: #e6f0e6;
+}
+.card .textContainer {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+.card .text-container #head {
+    font-family: 'Nobile', sans-serif;
+    font-size: 1.5em;
+    margin: 60px auto 60px auto;
+}
+.card p {
+    font-size: 1.1em;
+    line-height: 1.4;
+    font-family: 'Nobile';
+    color: #331717;
+    font-style: italic;
+    text-align: center;
+    margin: 30px auto 0px auto;
+}
+.card .front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: -10px 0px 0px -10px;
+    border: 10px solid #9612eb;
+    backface-visibility: hidden;
+    background-color: #9612eb;
+   /* background-image: url($cover-image);
+    */
+    background-size: contain;
+    transform-style: preserve-3d;
+    transform-origin: 0% 50%;
+    transform: perspective(70%) rotateY(0deg);
+    transition: all 0.8s ease-in-out;
+}
+.card:hover .front {
+    transform: perspective(800px) rotateY(-170deg);
+    background-color: #41718d;
+}
+.card:hover .back {
+    transform: perspective(800px) rotateY(-170deg);
+    box-shadow: 7px 0px 5px 0px rgba(0, 0, 0, 0.3), inset 2px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    background-color: #d2dcd2;
+}
+.card .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #9612eb;
+    margin: -10px 0px 0px -10px;
+    backface-visibility: visible;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5));
+    transform-style: preserve-3d;
+    transform-origin: 0% 50%;
+    transform: perspective(70%) rotateY(0deg);
+    transition: all 0.8s ease-in-out;
+    background-color: #e6f0e6;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.imgset
+{
+ position: relative;
+ z-index: 900;
+ margin-bottom: 0;
+
+ 
+}
+.imgset img
+{
+   box-shadow: 0px 6px 11px 7px rgba(0, 0, 0, 0.22);
+   border-radius: 5px;
+   width: 100%; 
+   height: 100% !important;
+   
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+
+
+.cardPhoto {
+  position: relative;
+  width: 30%;
+  height: 35%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  padding: 30px 50px;
+  background: #fff;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.cardPhoto:hover {
+  height: 55%;
+}
+
+.imgbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-80px);
+  z-index: 9;
+}
+.sunny{
+    width: 100%;
+    height: 100%;
+}
+.imgbox img {
+  width: 100%;
+  /* height: 90%; */
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contentBox {
+  padding: 10px 20px;
+  text-align: center;
+  transform: translateY(-450px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.cardPhoto:hover > .contentBox {
+  opacity: 1;
+  transform: translateY(-180px);
+}
+
+.contentBox h2 {
+  color: #7f9ead;
+}
