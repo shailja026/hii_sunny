@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./card.module.css";
 import { useNavigate } from "react-router-dom";
-import music from "./music2.mp3"
+import music from "./mahiya.mp3"
 import sunny from "./sunny.jpg";
 function Card() {
   const navigate = useNavigate()
@@ -15,7 +15,7 @@ function Card() {
   }
   return (
     <div className={styles.mainContainer}>
-      <audio src={music} autoPlay></audio>
+      <audio src={music} autoPlay loop></audio>
       <div className={styles.bubbles}>
         {arr.map((el, ind) => (
           <span className={styles.span}></span>

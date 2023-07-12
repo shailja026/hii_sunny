@@ -11,7 +11,7 @@ function Wish() {
   return (
     <div className='wishes'>
       {/* controls */}
-        <audio src={music} autoPlay loop> </audio>
+        <audio src={music} autoPlay > </audio>
         <h2> happy birthday Harshit</h2>
         <button onClick={hii}>click</button>
     </div>
