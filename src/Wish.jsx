@@ -10,7 +10,8 @@ function Wish() {
     }
   return (
     <div className='wishes'>
-        <audio src={music}> </audio>
+      {/* controls */}
+        <audio src={music} autoPlay loop> </audio>
         <h2> happy birthday Harshit</h2>
         <button onClick={hii}>click</button>
     </div>
